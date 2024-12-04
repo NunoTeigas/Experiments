@@ -6,8 +6,8 @@ Instructions to use
 
 The CONSTANTS below require a user input.
 
-MINUTES: for how long the loop will execute.
-INTERVAL: frequency of the notification of how many seconds left in the timer.
+MINUTES: for how long the loop will execute (unit: minutes).\n
+INTERVAL: frequency of the notification of how many seconds left in the timer (unit: seconds).
 
 MINUTES = 1
 INTERVAL = 10
