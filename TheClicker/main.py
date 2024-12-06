@@ -16,7 +16,6 @@ def main():
     clicks = 0
     time_left = (MINUTES * 60) - (clicks * INTERVAL)
     print(f"You have {time_left} seconds remaining.")
-    print(timer)
 
     for i in range(timer):
         pyautogui.sleep(INTERVAL) # same for ALL
